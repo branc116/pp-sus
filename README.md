@@ -1,4 +1,4 @@
-# P2P clinet and stun server
+# [P]2[P] and [S]tun [U]DP [S]erver - PP SUS
 
 Just a demo p2p clinet and stun server for a referent.
 This should just work.
