@@ -52,11 +52,6 @@ static void peer_set_active_ep(peer_t* remote, peer_t const* self) {
   LOGI("Active ep: " EP_FMT, EPTOF(remote->active_ep));
 }
 
-struct {
-  peer_t* arr;
-  size_t len, cap;
-} remotes = { 0 };
-
 typedef struct {
   int status;
   int sleep;
